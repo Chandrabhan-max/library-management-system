@@ -1,14 +1,14 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-
 import Home from "./pages/Home/home";
-import Resources from "./pages/Resources (Books)/Resources";
-import MyBorrowedBooks from "./pages/User Books/MyBorrowedBooks";
+import Resources from "./pages/resources-books/Resources";
+import MyBorrowedBooks from "./pages/user-books/MyBorrowedBooks";
 import Profile from "./pages/Profile/Profile";
 
-import Admin from "./pages/Admin Control/Admin";
-import AdminBooks from "./pages/Admin Control/AdminBooks";
-import AdminUsers from "./pages/Admin Control/AdminUsers";
+
+import Admin from "./pages/admin-control/Admin";
+import AdminBooks from "./pages/admin-control/AdminBooks";
+import AdminUsers from "./pages/admin-control/AdminUsers";
 
 import Login from "./auth/Login";
 import Register from "./auth/Register";
