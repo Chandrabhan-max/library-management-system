@@ -7,21 +7,3 @@ export class AppService {
   }
 }
 
-/* 
-register - 
-
-{
-  "name": "Abhi",
-  "email": "abhi@gmail.com",
-  "password": "123456",
-  "role": "ADMIN"
-}
-
-login - 
-
-{
-  "email": "abhi@gmail.com",
-  "password": "123456"
-}
-
-*/
