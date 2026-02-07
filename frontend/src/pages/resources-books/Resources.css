@@ -1,0 +1,111 @@
+.resources-page {
+  max-width: 1200px;
+  margin: auto;
+  padding: 32px 24px 80px;
+  font-family: "Inter", system-ui;
+  color: #111827;
+}
+
+.resources-page h2 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.resources-page .filters {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin-bottom: 32px;
+}
+
+.resources-page .filters input,
+.resources-page .filters select {
+  padding: 12px 14px;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+  background: white;
+}
+
+.resources-page table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.resources-page thead {
+  background: #f9fafb;
+}
+
+.resources-page th,
+.resources-page td {
+  padding: 16px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.resources-page th {
+  font-weight: 600;
+  color: #374151;
+}
+
+.resources-page tbody tr {
+  border-top: 1px solid #e5e7eb;
+}
+
+.borrow-btn {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #16a34a;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+.issued {
+  font-size: 13px;
+  color: #9ca3af;
+  font-weight: 600;
+}
+
+.popup {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-box {
+  background: white;
+  padding: 28px;
+  border-radius: 16px;
+  width: 320px;
+  text-align: center;
+}
+
+.plan-btn {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  width: 100%;
+  padding: 10px;
+  background: #dc2626;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: 600;
+}
